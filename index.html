@@ -9,10 +9,10 @@
 
         <script>
             function downloadFile() {
-                const fileUrl = 'tetris.zip';
+                const fileUrl = 'https://github.com/GetTetris/GetTetris.github.io/raw/main/Tetris.zip'; // Updated URL
                 const link = document.createElement('a');
                 link.href = fileUrl;
-                link.download = 'tetris.zip';
+                link.download = 'Tetris.zip'; // Updated filename
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
