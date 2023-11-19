@@ -1,0 +1,24 @@
+body{
+    background-image: url("Background.png");
+    background-repeat: no-repeat;
+    width: 90vw;
+    height: 90vh;
+    background-size: cover;
+}
+
+.button_class{
+    padding: 12px 28px;
+    background-size: cover;
+    width: 159px;
+    height: 45px;
+    background-image: url("download_button.png");
+    border: none;
+    position: fixed;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+
+
